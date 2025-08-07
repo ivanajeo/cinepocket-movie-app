@@ -25,7 +25,7 @@ const TabIcon = ({ focused, icon, title }: any) => {
 
   return (
     <View
-      className='size-full justify-center items-center mt-4 rounded-full'  
+      className='size-full justify-center items-center mt-4 rounded-full'
     >
       <Image
         source={icon}
