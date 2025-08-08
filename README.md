@@ -5,6 +5,8 @@ From smooth navigation to responsive design, it delivers a seamless browsing exp
 
 This project doesn’t just *show movies* — it tracks engagement, processes data, and adapts in real time to highlight what’s trending. 
 
+## Preview
+<img src="./assets/images/screenshots/homepage-screenshot.jpeg" width="225"/>&nbsp;&nbsp;&nbsp;<img src="./assets/images/screenshots/searchpage-screenshot.jpeg" width="225"/>&nbsp;&nbsp;&nbsp;<img src="./assets/images/screenshots/movie-details-screenshot.jpeg" width="225"/>
 
 ## Features
 - **Real-time movie data** — Always fresh, always accurate.  
