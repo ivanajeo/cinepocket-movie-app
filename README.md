@@ -1,50 +1,57 @@
-# Welcome to your Expo app 👋
+# CinePocket Movie App 🎬 
+Built with **Expo**, **TypeScript**, and **Tailwind CSS**, this app fetches real-time movie data and ranks titles using a custom popularity algorithm powered by **Appwrite**.  
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+From smooth navigation to responsive design, it delivers a seamless browsing experience — letting users discover, search, and explore movies with an intuitive, visually appealing interface.
 
-## Get started
+This project doesn’t just *show movies* — it tracks engagement, processes data, and adapts in real time to highlight what’s trending. 
 
-1. Install dependencies
 
+## Features
+- **Real-time movie data** — Always fresh, always accurate.  
+- **Home page** — Featured & discover sections.  
+- **Search page** — Find your favorites instantly.
+- **Movie details page** — Deep-dive into each film with synopsis, ratings, and more.  
+- **Custom popularity algorithm** — Tracks user searches and trends.  
+- **Responsive design** — Optimized for all devices.  
+- **Reusable architecture** — Clean, maintainable codebase.
+  
+## Tech Stack
+- **Expo** — Universal app development for Android, iOS, and Web, with fast refresh, native APIs, and file-based routing.
+- **React Native** — Component-based mobile UI framework with deep native integration.
+- **Appwrite** — Backend-as-a-service for authentication, databases, storage, and serverless functions.
+- **TypeScript** — Static typing for cleaner, more maintainable code.
+- **Tailwind CSS + NativeWind** — Utility-first styling for consistent, responsive mobile UI.
+
+## What I Learned 🧠
+This project was a deep dive into both **frontend** and **backend** skills:
+
+- Different navigation patterns (**stack** & **tab**).  
+- Advanced file-based routing (nested & dynamic routes).  
+- Custom hooks for cleaner, reusable logic.  
+- Responsive design for mobile devices.  
+- Working with APIs to fetch and process live data.  
+- Using a database to store and query movie data.  
+- Creating algorithms to determine trending movies.  
+
+Building this app from scratch was an incredible experience — combining design, logic, and data into a single, polished product.😊
+
+## Getting Started
+Follow these steps to run the app locally:
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/ivanajeo/cinepocket-movie-app.git
+   cd cinepocket-movie-app
+   ```
+2. **Install dependencies**
    ```bash
    npm install
    ```
-
-2. Start the app
-
+3. **Configure environment variables**
+- Create a `.env` file in the root directory.
+- Add your API keys and Appwrite credentials.
+4. **Run the app**
    ```bash
    npx expo start
    ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+   Scan the QR code with the Expo Go app on your phone, or run it on an emulator.
