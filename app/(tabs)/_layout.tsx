@@ -9,7 +9,7 @@ const TabIcon = ({ focused, icon, title }: any) => {
     return (
       <ImageBackground
         source={images.highlight}
-        className='flex flex-row w-full flex-1 min-w-[112px] min-h-16 mt-6 justify-center items-center rounded-full overflow-hidden'
+        className='flex flex-row w-full flex-1 min-w-[135px] min-h-16 mt-6 justify-center items-center rounded-full overflow-hidden'
       >
         <Image
           source={icon}
@@ -97,19 +97,6 @@ const _Layout = () => {
               focused={focused}
               icon={icons.save}
               title='Saved'
-            />
-          )
-        }} />
-      <Tabs.Screen
-        name='profile'
-        options={{
-          title: 'Profile',
-          headerShown: false,
-          tabBarIcon: ({ focused }) => (
-            <TabIcon
-              focused={focused}
-              icon={icons.person}
-              title='Profile'
             />
           )
         }} />
